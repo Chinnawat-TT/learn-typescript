@@ -114,3 +114,50 @@ let lastName = "Sangrung";
 // }
 
 // console.log(CarLists.firstCar) // Toyota
+
+// Type Aliases ตั้งนานเเฝง, ตั้ง customs name ให้กับ type
+
+// type CarYear = number;
+// type CarType = string;
+// type CarModel = string;
+
+// type Car ={
+//   year: CarYear,
+//   type : CarType,
+//   model : CarModel
+// }
+
+// const carYear : CarYear =2023;
+// const carType : CarType = "Isuzu"
+// const carModel : CarModel = "Dmax"
+// const car: Car = {
+//   year : carYear,
+//   type :carType,
+//   model : carModel
+// }
+
+// Typescript Interfaces   ใช้ได้กับชนิดข้อมูลชนิด object เท่านั้น
+
+// interface Rectangle {
+//   height : number,
+//   width : number
+// }
+
+// interface ColoredRectangle extends Rectangle {
+//   color : string
+// }
+
+// const rectangle : ColoredRectangle ={
+//   height :20,
+//   width :10,
+//   color : "red"
+// }
+
+// Union Types แปลไทย "หรือ"
+
+// function statusCode(code : string | number){
+//   console.log(`My status code is ${code}`)
+// }
+
+// statusCode(404);
+// statusCode("404");
