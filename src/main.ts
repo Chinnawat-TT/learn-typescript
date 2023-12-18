@@ -61,7 +61,56 @@ let lastName = "Sangrung";
 // // กำหนดชื่อได้
 // let tuple:[myNum:number,myBoo:boolean,myStr:string]=[10,true,"OK"]
 
-// destructuring
+// Destructuring
 // let tuple:[number,boolean,string]=[10,true,"OK"]
 // let [myNum,myBoo,myStr]=tuple
 // console.log(myNum,myBoo,myStr) // 10 true 'OK'
+
+// TypeScript Object types
+
+// const motorcycle :{type:string,model:string,year:number}={
+//   type:"Honda",
+//   model:"Wave125",
+//   year:2023
+// }
+
+// Typescript Enums
+
+// ค่า default เริ่มที่ 0
+// enum Employees{
+//   Id, // 0
+//   FirstName, //1
+//   LastName, //2
+//   age, // 3
+//   Position // 4
+// }
+
+// console.log(Employees.age) // 3
+
+// สามารถกำหนดค่าเริ่มต้นได้ 
+// enum Employees{
+//   Id = 1, // 1
+//   FirstName, //2
+//   LastName, //3
+//   age, // 4
+//   Position // 5
+// }
+
+// console.log(Employees.age) // 4
+
+// enum StatusCode {
+//   NotFound =404,
+//   Success = 200,
+//   Accepted = 202,
+//   BadRequest = 400
+// }
+
+// console.log(StatusCode.Success) // 200
+
+// enum CarLists {
+//   firstCar = "Toyota",
+//   secondCar = "Honda",
+//   thirdCar = "Mazda"
+// }
+
+// console.log(CarLists.firstCar) // Toyota
