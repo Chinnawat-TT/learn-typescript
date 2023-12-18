@@ -161,3 +161,39 @@ let lastName = "Sangrung";
 
 // statusCode(404);
 // statusCode("404");
+
+// Functions
+
+function getTime(): number {
+  return new Date().getTime()
+}
+
+// function void จะไม่ return ค่าใดๆ
+function printHello(): void {
+  console.log("Hello")
+}
+
+// optional parameter ? 
+// defalut parameter
+// function multiply(a:number, b:number,c?:number,d:number=10) {
+//   return a * b  + d
+// }
+
+// ตั้งชื่อให้กับ parameter และกำหนด Type ให้กับ parameter
+// function divide({ divided, divisor}:{divided:number,divisor:number}){
+//   return divided / divisor
+// }
+
+// rest parameter
+// function add(a:number , b:number, ...arr: number[]){
+
+// }
+
+// Typescript Casting เขียน type แทนที่ type
+// as
+
+// let y : unknown ="hello"
+// console.log((y as string).length)
+
+// let someVar : unknown ="hello"
+// console.log((<string>someVar).length)
