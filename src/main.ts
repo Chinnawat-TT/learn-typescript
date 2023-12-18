@@ -189,7 +189,7 @@ function printHello(): void {
 
 // }
 
-// Typescript Casting เขียน type แทนที่ type
+// Typescript Casting เขียน type แทนที่ type , overwrite ให้กับตัวเเปร
 // as
 
 // let y : unknown ="hello"
@@ -197,3 +197,33 @@ function printHello(): void {
 
 // let someVar : unknown ="hello"
 // console.log((<string>someVar).length)
+
+// Typescript Classes
+
+// class Person {
+//   private name : string;
+
+//   public constructor(name : string){
+//     this.name = name
+//   }
+
+//   public getName():string {
+//     return this.name
+//   }
+// }
+
+// const person = new Person("toto");
+// console.log(person.getName())
+
+// Typescript Generics
+
+// function identity<T>(value:T):T{
+//   return value
+// }
+
+// const result = identity<number>(123)
+// console.log(result)
+// console.log(typeof result)
+// const resultStr = identity<string>("I love typescript")
+// console.log(resultStr)
+// console.log(typeof resultStr)
