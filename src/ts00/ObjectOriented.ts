@@ -1,13 +1,13 @@
-class Infomation {
-    name : string =''
-    age : number =0
+// class Infomation {
+//     name : string =''
+//     age : number =0
 
-    sayHi(){
-        return "Hi ! I'm "+ this.name + " and " + this.age + " years old "
-    }
-}
+//     sayHi(){
+//         return "Hi ! I'm "+ this.name + " and " + this.age + " years old "
+//     }
+// }
 
-const user : any = new Infomation()
-user.name = "chinnawat"
-user.age = 30
-console.log(user.sayHi())
+// const user : any = new Infomation()
+// user.name = "chinnawat"
+// user.age = 30
+// console.log(user.sayHi())

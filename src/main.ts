@@ -227,3 +227,27 @@ function printHello(): void {
 // const resultStr = identity<string>("I love typescript")
 // console.log(resultStr)
 // console.log(typeof resultStr)
+
+// class Person {
+//   name:string ="";
+//   constructor(name:any){
+//       this.name=name
+//   }
+//   sayHi(){
+//       console.log(`Hi, I'm ${this.name}`)
+//   }
+// }
+// class Employee extends Person{
+//   salary: number = 0;
+//   constructor(name:any,salary:number){
+//       super(name)
+//       this.salary =salary
+//   }
+//   sayHi() {
+//       super.sayHi();
+//       console.log(`Salary: ${this.salary}`)
+//   }
+// }
+// const person = new Employee('John',30000)
+
+// person.sayHi()

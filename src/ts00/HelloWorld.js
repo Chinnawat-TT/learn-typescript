@@ -1,3 +1,7 @@
+/* Command Line
+tsc <filename> compile ts -> js
+
+ */
 var message = "Hello World";
 console.log(message);
 var number = 99;

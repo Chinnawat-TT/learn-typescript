@@ -23,7 +23,7 @@ for (ค่าเริ่มต้น; เงื่อนไข; หลัง�
 
 // for (const item of day) {
 //     console.log(item)
-// } return elementทุกตัวใน array
+// } //return element ทุกตัวใน array
 
 // for (const key in day) {
 //     console.log(key)
@@ -36,3 +36,5 @@ for (ค่าเริ่มต้น; เงื่อนไข; หลัง�
 //     }
 // });
 // console.log(newDay)
+
+

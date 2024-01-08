@@ -34,26 +34,26 @@
 // const p = new Point()
 // console.log(p.x)
 
-class Person {
-    name:string ="";
-    constructor(name:any){
-        this.name=name
-    }
-    sayHi(){
-        console.log(`Hi, I'm ${this.name}`)
-    }
-}
-class Employee extends Person{
-    salary: number = 0;
-    constructor(name:any,salary:number){
-        super(name)
-        this.salary =salary
-    }
-    sayHi() {
-        super.sayHi();
-        console.log(`Salary: ${this.salary}`)
-    }
-}
-const person = new Employee('John',30000)
+// class Person {
+//     name:string ="";
+//     constructor(name:any){
+//         this.name=name
+//     }
+//     sayHi(){
+//         console.log(`Hi, I'm ${this.name}`)
+//     }
+// }
+// class Employee extends Person{
+//     salary: number = 0;
+//     constructor(name:any,salary:number){
+//         super(name)
+//         this.salary =salary
+//     }
+//     sayHi() {
+//         super.sayHi();
+//         console.log(`Salary: ${this.salary}`)
+//     }
+// }
+// const person = new Employee('John',30000)
 
-person.sayHi()
+// person.sayHi()
